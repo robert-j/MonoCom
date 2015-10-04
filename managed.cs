@@ -5,7 +5,7 @@ using System.Runtime.CompilerServices;
 
 [Guid ("c33fa593-ee30-41f4-9d01-f1c8d105e633")]
 [InterfaceType (ComInterfaceType.InterfaceIsIUnknown)]
-[ComImport ()]
+[ComImport]
 interface ITest
 {
 	// PreserveSig test

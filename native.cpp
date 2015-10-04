@@ -19,18 +19,21 @@ public:
 	
 	HRESULT QueryInterface (void *riid, void **obj)
 	{
+		// FIXME: check riid
 		*obj = this;
 		return S_OK;
 	};
 
 	unsigned int AddRef ()
 	{
+		// FIXME: implement
 		return 1;
 	};
 
 	unsigned int Release ()
 	{
-		return S_OK;
+		// FIXME: implement
+		return 9;
 	};
 
 	/* TestImpl methods */
