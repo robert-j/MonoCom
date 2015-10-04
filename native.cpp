@@ -33,7 +33,7 @@ public:
 	unsigned int Release ()
 	{
 		// FIXME: implement
-		return 9;
+		return 0;
 	};
 
 	/* TestImpl methods */
